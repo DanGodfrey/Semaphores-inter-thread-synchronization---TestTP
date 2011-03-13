@@ -30,6 +30,6 @@ public class ReaderThread extends Thread
 			catch (InterruptedException ex) { break; }
 			if(this.isInterrupted()) break;  // break out of loop and terminate the thread.
 		}
-		System.out.println("REader Thread "+id+"("+this.getId()+") Terminated"); System.out.flush();
+		System.out.println("Reader Thread "+id+"("+this.getId()+") Terminated"); System.out.flush();
 	}
 }
